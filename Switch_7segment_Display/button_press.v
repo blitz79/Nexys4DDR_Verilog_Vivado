@@ -1,3 +1,17 @@
+
+////////////////////////////////////////////////////////////////////////////////
+// Company: Student
+// Engineer: Dinesh Gundu
+//
+// Create Date: 4/30/2016
+// Design Name: button_press
+// Module Name: button_press
+// Target Device: Nexys4-DDR
+//
+// Description:
+//    Using switches and displaying the numbers on 7segment
+//////////////////////////////////////////////////////////////////////////////////
+			
 `timescale 1ns / 1ps
 module button_press(CLK,BTNC,SW,LED,C,AN);
 input  CLK, BTNC;
